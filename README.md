@@ -1,14 +1,31 @@
 # ouvre
-Open web pages configured in a config file to be more efficient.
+Open web pages configured in a config file.
 
 ## Installation
-Run the following commands to download and install the application:
+Run the following command to download and install the application:
+
+```sh
+$ sudo npm install -g ouvre
+```
+
+or by cloning this repository
 
 ```sh
 $ git clone git@github.com:IonicaBizau/ouvre.git ouvre
 $ cd ouvre
 $ npm install
 ```
+
+## Configuring `~/.ouvre.conf` file
+Create a file named `.ouvre.conf` in your home directory containing urls - one per line:
+
+```
+http://github.com/IonicaBizau
+http://example.com
+...
+```
+
+Then, running `ouvre`, the default browser will open the links.
 
 ## How to contribute
 

@@ -1,0 +1,26 @@
+{
+  "name": "ouvre",
+  "version": "0.0.0",
+  "description": "Open web pages configured in a config file to be more efficient.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/ouvre.git"
+  },
+  "keywords": [
+    "open",
+    "web",
+    "page",
+    "shell",
+    "node"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/ouvre/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/ouvre"
+}

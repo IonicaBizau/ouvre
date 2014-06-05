@@ -2,9 +2,12 @@
   "name": "ouvre",
   "version": "0.0.0",
   "description": "Open web pages configured in a config file to be more efficient.",
-  "main": "index.js",
+  "main": "ouvre.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ouvre": "ouvre.sh"
   },
   "repository": {
     "type": "git",

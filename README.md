@@ -16,19 +16,31 @@ $ cd ouvre
 $ npm install
 ```
 
-## Configuring `~/.ouvre.conf` file
+## Configuring the `~/.ouvre.conf` file
 Create a file named `.ouvre.conf` in your home directory containing urls - one per line:
 
-```
-http://github.com/IonicaBizau
-http://example.com
-...
+```sh
+# Social
+https://www.facebook.com/
+https://twitter.com/
+
+# Programming
+http://stackoverflow.com/users/1420197/
+https://github.com/
+
+# My Website
+http://ionicabizau.net
+
+# e-Mail
+https://mail.google.com/mail/u/0/#inbox
+https://mail.google.com/mail/u/1/#inbox
+
+# ...and so on
 ```
 
 Then, running `ouvre`, the default browser will open the links.
 
 ## How to contribute
-
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
    right foot.

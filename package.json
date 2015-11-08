@@ -1,6 +1,6 @@
 {
   "name": "ouvre",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open web pages configured in a config file to be more efficient.",
   "main": "ouvre.sh",
   "scripts": {
@@ -20,10 +20,47 @@
     "shell",
     "node"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ouvre/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/ouvre"
+  "homepage": "https://github.com/IonicaBizau/ouvre",
+  "blah": {
+    "show_docs": false,
+    "installation": [
+      {
+        "h2": "Configuring the `~/.ouvre.conf` file"
+      },
+      {
+        "p": "Create a file named `.ouvre.conf` in your home directory containing urls - one per line:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": [
+            "# Social",
+            "https://www.facebook.com/",
+            "https://twitter.com/",
+            "",
+            "# Programming",
+            "http://stackoverflow.com/users/1420197/",
+            "https://github.com/",
+            "",
+            "# My Website",
+            "http://ionicabizau.net",
+            "",
+            "# e-Mail",
+            "https://mail.google.com/mail/u/0/#inbox",
+            "https://mail.google.com/mail/u/1/#inbox",
+            "",
+            "# ...and so on"
+          ]
+        }
+      },
+      {
+        "p": "Then, running `ouvre`, the default browser will open the links."
+      }
+    ]
+  }
 }

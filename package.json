@@ -1,6 +1,6 @@
 {
   "name": "ouvre",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Open web pages configured in a config file to be more efficient.",
   "main": "ouvre.sh",
   "scripts": {

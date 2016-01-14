@@ -1,6 +1,6 @@
-# ouvre [![Support this project][donate-now]][paypal-donations]
+# ouvre [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ouvre.svg)](https://www.npmjs.com/package/ouvre) [![Downloads](https://img.shields.io/npm/dt/ouvre.svg)](https://www.npmjs.com/package/ouvre) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Open web pages configured in a config file to be more efficient.
+> Open web pages configured in a config file to be more efficient.
 
 ## Installation
 

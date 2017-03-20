@@ -1,6 +1,6 @@
 {
   "name": "ouvre",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Open web pages configured in a config file to be more efficient.",
   "main": "bin/ouvre.sh",
   "scripts": {
@@ -20,7 +20,7 @@
     "shell",
     "node"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ouvre/issues"
@@ -67,12 +67,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]

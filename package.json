@@ -1,6 +1,6 @@
 {
   "name": "ouvre",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "description": "Open web pages configured in a config file to be more efficient.",
   "main": "bin/ouvre.sh",
   "scripts": {
@@ -74,6 +74,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
